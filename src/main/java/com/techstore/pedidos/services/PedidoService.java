@@ -9,7 +9,7 @@ import com.techstore.pedidos.model.Pedido;
 import com.techstore.pedidos.repositories.PedidoRepository;
 
 @Service
-public class PedidosService {
+public class PedidoService {
 
 	@Autowired
 	private PedidoRepository pedidoRepository;
@@ -33,5 +33,6 @@ public class PedidosService {
 	public void eliminarPorId(String id) {
 		pedidoRepository.eliminarPorId(id);
 	}
+	
 	
 }
